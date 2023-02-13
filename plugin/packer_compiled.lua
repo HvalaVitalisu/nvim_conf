@@ -104,11 +104,6 @@ _G.packer_plugins = {
     path = "/home/vitalis/.local/share/nvim/site/pack/packer/start/cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
-  cmp_luasnip = {
-    loaded = true,
-    path = "/home/vitalis/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
-    url = "https://github.com/saadparwaiz1/cmp_luasnip"
-  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/vitalis/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -138,6 +133,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/vitalis/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
+  },
+  ["nvim-colorizer.lua"] = {
+    loaded = true,
+    path = "/home/vitalis/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
+    url = "https://github.com/norcalli/nvim-colorizer.lua"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
@@ -178,11 +178,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/vitalis/.local/share/nvim/site/pack/packer/start/vim-airline-themes",
     url = "https://github.com//vim-airline/vim-airline-themes"
-  },
-  ["vim-css-color"] = {
-    loaded = true,
-    path = "/home/vitalis/.local/share/nvim/site/pack/packer/start/vim-css-color",
-    url = "https://github.com//ap/vim-css-color"
   },
   ["vim-devicons"] = {
     loaded = true,

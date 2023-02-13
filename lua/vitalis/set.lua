@@ -11,13 +11,13 @@ vim.opt.smartindent = true;
 vim.opt.undofile = false;
 vim.opt.incsearch = true;
 vim.opt.hlsearch = false;
---vim.opt.termguicolors = true;
+vim.opt.termguicolors = true;
 vim.opt.scrolloff = 8;
 vim.opt.updatetime = 50;
 vim.opt.splitbelow = true;
 vim.opt.ignorecase = true;
 vim.opt.smartcase = true;
 
-vim.cmd [[:colorscheme gruvbox]]
---vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
---vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+vim.cmd [[:colorscheme two-firewatch]]
+vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })

@@ -14,9 +14,9 @@ return require('packer').startup(function(use)
   }
   use '/vim-airline/vim-airline'
   use '/vim-airline/vim-airline-themes'
-  use '/ap/vim-css-color'
   use '/rafi/awesome-vim-colorschemes'
   use '/ryanoasis/vim-devicons'
+  use 'norcalli/nvim-colorizer.lua'
   use '/preservim/nerdtree'
   use '/mbbill/undotree'
   use {
