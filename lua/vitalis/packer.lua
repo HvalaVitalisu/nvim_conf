@@ -19,6 +19,12 @@ return require('packer').startup(function(use)
   use 'norcalli/nvim-colorizer.lua'
   use '/preservim/nerdtree'
   use '/mbbill/undotree'
+   use {
+      'neanias/everforest-nvim',
+      config = function()
+          require("everforest").setup()
+      end,
+  }
   use {
   'VonHeikemen/lsp-zero.nvim',
   branch = 'v1.x',

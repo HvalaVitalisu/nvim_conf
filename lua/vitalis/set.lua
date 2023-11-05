@@ -18,6 +18,10 @@ vim.opt.splitbelow = true;
 vim.opt.ignorecase = true;
 vim.opt.smartcase = true;
 
-vim.cmd [[:colorscheme two-firewatch]]
-vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
-vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+
+vim.cmd [[:colorscheme everforest]]
+vim.cmd [[:let g:airline#extensions#tabline#enabled = 1]]
+vim.cmd [[:let g:airline_theme="tomorrow"]]
+vim.cmd [[:let g:airline_powerline_fonts = 1]]
+--vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+--vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
